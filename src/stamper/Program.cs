@@ -37,7 +37,7 @@ namespace stamper
 
 		static void Main(string[] args)
 		{
-			manipulatePdf("source.pdf", "out.pdf", "cat.jpg");
+			manipulatePdf(@"..\..\data\source.pdf", @"..\..\data\out.pdf", @"..\..\data\cat.jpg");
 		}
 	}
 }
